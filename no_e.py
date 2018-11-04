@@ -1,5 +1,5 @@
 def has_no_e(word):
-    if 'e' not in word:
+    if 'e' not in word.lower():
         return True
 def no_e():
     noe=0

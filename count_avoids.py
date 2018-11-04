@@ -1,6 +1,6 @@
 def avoids(word,forbidden):
     for letter in forbidden:
-        if letter in word:
+        if letter.lower() in word.lower():
             return False
     return True
 def count_avoids():

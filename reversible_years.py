@@ -29,3 +29,5 @@ def solver():
                 if mom_age-my_age>=18:
                     print(age)
             count=0
+if __name__=="__main__":
+    solver()
